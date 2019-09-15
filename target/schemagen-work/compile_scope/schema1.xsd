@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:complexType name="apartmentDTO">
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="appEventDTO">
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="clientDTO">
+    <xs:complexContent>
+      <xs:extension base="userDTO">
+        <xs:sequence/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+
+  <xs:complexType name="userDTO">
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="commonAreaDTO">
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="contractorDTO">
+    <xs:complexContent>
+      <xs:extension base="userDTO">
+        <xs:sequence/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+
+  <xs:complexType name="employeeDTO">
+    <xs:complexContent>
+      <xs:extension base="userDTO">
+        <xs:sequence/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+
+  <xs:complexType name="featureDTO">
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="floorDTO">
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="inquiryDTO">
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="maintenanceDTO">
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="managementDashboardDTO">
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="notificationDTO">
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="parkingSlotDTO">
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="paymentDTO">
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="unitDTO">
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="userDashboardDTO">
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="vehicleDTO">
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="vehicleParkingDTO">
+    <xs:sequence/>
+  </xs:complexType>
+</xs:schema>
+

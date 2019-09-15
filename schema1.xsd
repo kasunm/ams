@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema version="1.0" targetNamespace="http://www.kasun.com/notification" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:complexType name="notification">
+    <xs:sequence/>
+    <xs:attribute name="description" type="xs:string"/>
+    <xs:attribute name="id" type="xs:long"/>
+    <xs:attribute name="name" type="xs:string"/>
+  </xs:complexType>
+</xs:schema>
+

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0">
+
+  <xs:complexType name="apartmentDTO">
+    <xs:annotation>
+      <xs:documentation><![CDATA[<p>Title         : ApartmentDTO
+<p>Project       : Ams : Apartment management system for empire apartments
+<p>Description   : DTO for Apartment. An apartment
+
+(author): Kasun Madurasinghe
+(version): 1.0]]></xs:documentation>
+    </xs:annotation>
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="appEventDTO">
+    <xs:annotation>
+      <xs:documentation><![CDATA[<p>Title         : AppEventDTO
+<p>Project       : Ams : Apartment management system for empire apartments
+<p>Description   : DTO for AppEvent. An event of apartment
+
+(author): Kasun Madurasinghe
+(version): 1.0]]></xs:documentation>
+    </xs:annotation>
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="clientDTO">
+    <xs:annotation>
+      <xs:documentation><![CDATA[<p>Title         : ClientDTO
+<p>Project       : Ams : Apartment management system for empire apartments
+<p>Description   : DTO for Client. A Client of apartment
+
+(author): Kasun Madurasinghe
+(version): 1.0]]></xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="userDTO">
+        <xs:sequence/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+
+  <xs:complexType name="userDTO">
+    <xs:annotation>
+      <xs:documentation><![CDATA[<p>Title         : UserDTO
+<p>Project       : Ams : Apartment management system for empire apartments
+<p>Description   : DTO for User. A User of apartment
+
+(author): Kasun Madurasinghe
+(version): 1.0]]></xs:documentation>
+    </xs:annotation>
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="commonAreaDTO">
+    <xs:annotation>
+      <xs:documentation><![CDATA[<p>Title         : CommonAreaDTO
+<p>Project       : Ams : Apartment management system for empire apartments
+<p>Description   : DTO for CommonArea. A Common area of apartment
+
+(author): Kasun Madurasinghe
+(version): 1.0]]></xs:documentation>
+    </xs:annotation>
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="contractorDTO">
+    <xs:annotation>
+      <xs:documentation><![CDATA[<p>Title         : ContractorDTO
+<p>Project       : Ams : Apartment management system for empire apartments
+<p>Description   : DTO for Contractor. A Contractor of apartment
+
+(author): Kasun Madurasinghe
+(version): 1.0]]></xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="userDTO">
+        <xs:sequence/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+
+  <xs:complexType name="employeeDTO">
+    <xs:annotation>
+      <xs:documentation><![CDATA[<p>Title         : EmployeeDTO
+<p>Project       : Ams : Apartment management system for empire apartments
+<p>Description   : DTO for Employee. An Employee of apartment
+
+(author): Kasun Madurasinghe
+(version): 1.0]]></xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="userDTO">
+        <xs:sequence/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+
+  <xs:complexType name="featureDTO">
+    <xs:annotation>
+      <xs:documentation><![CDATA[<p>Title         : FeatureDTO
+<p>Project       : Ams : Apartment management system for empire apartments
+<p>Description   : DTO for Feature. A Feature of an apartment
+
+(author): Kasun Madurasinghe
+(version): 1.0]]></xs:documentation>
+    </xs:annotation>
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="floorDTO">
+    <xs:annotation>
+      <xs:documentation><![CDATA[<p>Title         : FloorDTO
+<p>Project       : Ams : Apartment management system for empire apartments
+<p>Description   : DTO for Floor. A floor of an apartment
+
+(author): Kasun Madurasinghe
+(version): 1.0]]></xs:documentation>
+    </xs:annotation>
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="inquiryDTO">
+    <xs:annotation>
+      <xs:documentation><![CDATA[<p>Title         : InquiryDTO
+<p>Project       : Ams : Apartment management system for empire apartments
+<p>Description   : DTO for Inquiry. An Inquiry for apartment
+
+(author): Kasun Madurasinghe
+(version): 1.0]]></xs:documentation>
+    </xs:annotation>
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="maintenanceDTO">
+    <xs:annotation>
+      <xs:documentation><![CDATA[<p>Title         : MaintenanceDTO
+<p>Project       : Ams : Apartment management system for empire apartments
+<p>Description   : DTO for Maintenance. An Maintenance for the apartment
+
+(author): Kasun Madurasinghe
+(version): 1.0]]></xs:documentation>
+    </xs:annotation>
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="managementDashboardDTO">
+    <xs:annotation>
+      <xs:documentation><![CDATA[<p>Title         : ${FILE_NAME}
+<p>Project       : Ams
+<p>Description   :
+
+(author): Kasun Madurasinghe
+(version): 1.0]]></xs:documentation>
+    </xs:annotation>
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="notificationDTO">
+    <xs:annotation>
+      <xs:documentation><![CDATA[<p>Title         : NotificationDTO
+<p>Project       : Ams : Apartment management system for empire apartments
+<p>Description   : DTO for Notification. A Notification of an apartment
+
+(author): Kasun Madurasinghe
+(version): 1.0]]></xs:documentation>
+    </xs:annotation>
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="parkingSlotDTO">
+    <xs:annotation>
+      <xs:documentation><![CDATA[<p>Title         : ParkingSlotDTO
+<p>Project       : Ams : Apartment management system for empire apartments
+<p>Description   : DTO for ParkingSlot. A parking slot
+
+(author): Kasun Madurasinghe
+(version): 1.0]]></xs:documentation>
+    </xs:annotation>
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="paymentDTO">
+    <xs:annotation>
+      <xs:documentation><![CDATA[<p>Title         : PaymentDTO
+<p>Project       : Ams : Apartment management system for empire apartments
+<p>Description   : DTO for Payment. A Payment for of an apartment or related activity
+
+(author): Kasun Madurasinghe
+(version): 1.0]]></xs:documentation>
+    </xs:annotation>
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="unitDTO">
+    <xs:annotation>
+      <xs:documentation><![CDATA[<p>Title         : UnitDTO
+<p>Project       : Ams : Apartment management system for empire apartments
+<p>Description   : DTO for Unit. A Unit of of an apartment
+
+(author): Kasun Madurasinghe
+(version): 1.0]]></xs:documentation>
+    </xs:annotation>
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="userDashboardDTO">
+    <xs:annotation>
+      <xs:documentation><![CDATA[<p>Title         : UserDashboardDTO
+<p>Project       : Ams
+<p>Description   : UserDashboardDTO
+
+(author): Kasun Madurasinghe
+(version): 1.0]]></xs:documentation>
+    </xs:annotation>
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="vehicleDTO">
+    <xs:annotation>
+      <xs:documentation><![CDATA[<p>Title         : VehicleDTO
+<p>Project       : Ams : Apartment management system for empire apartments
+<p>Description   : DTO for Vehicle. A vehicle
+
+(author): Kasun Madurasinghe
+(version): 1.0]]></xs:documentation>
+    </xs:annotation>
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="vehicleParkingDTO">
+    <xs:annotation>
+      <xs:documentation><![CDATA[<p>Title         : VehicleParkingDTO
+<p>Project       : Ams : Apartment management system for empire apartments
+<p>Description   : DTO for VehicleParking. A parking duration of vehicle
+
+(author): Kasun Madurasinghe
+(version): 1.0]]></xs:documentation>
+    </xs:annotation>
+    <xs:sequence/>
+  </xs:complexType>
+</xs:schema>
